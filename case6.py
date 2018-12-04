@@ -4,6 +4,7 @@ Shmatov D. 80%, Bayanova A. 70%
 """
 
 from turtle import *
+from ru_local import *
 
 def get_color_choice1():
     colors = ['красный', 'синий', 'зеленый', 'желтый', 'оранжевый', 'пурпурный', 'розовый']
@@ -58,7 +59,7 @@ def get_num_hexagons():
         else:
             valid_input3 = False
             print('{}'.format(nev_vv))
-    print('{}'.format(vib_kol), kol)
+    print('{}'.format(vib_col), kol)
     return kol
 
 
